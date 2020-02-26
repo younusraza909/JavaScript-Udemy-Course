@@ -1,1 +1,0 @@
-console.log("External Source For Js")
