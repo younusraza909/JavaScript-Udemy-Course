@@ -84,7 +84,7 @@ function gameOver(won, msg) {
   guessBtn.className += "play-again";
 }
 
-//Get Winning Num
+//Get Random Num
 function getRandomNum(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
