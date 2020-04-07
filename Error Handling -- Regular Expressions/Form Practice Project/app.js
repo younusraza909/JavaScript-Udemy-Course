@@ -14,6 +14,7 @@ function validateName() {
     name.classList.remove("is-invalid");
   }
 }
+
 function validateZip() {
   const zip = document.getElementById("zip");
   const re = /^[0-9]{5}(-[0-9]{4})?$/;
